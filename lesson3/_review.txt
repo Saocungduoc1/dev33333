@@ -1,0 +1,14 @@
+===> Table: tạo cấu trúc bảng
+        - border, with, align, cellspacing, cellpadding,
+        + thead: vùng tiêu đề bảng
+            tr: dòng/ hàng
+                th: cột/ ô
+                    ++ colspan: gộp ô theo cột
+                    ++ rowspan: gộp ô theo hàng
+            + tbody: vùng nội dung của hàng
+                tr:
+                    th/td:
+            + tfloat: vùng cuối bảng(thống kê)
+===> Form:
+    input:
+        
