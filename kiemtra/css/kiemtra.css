@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-image: url(../tin-tuc/background-tintuc.png);
+    
+}
+header{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0, 0.1, 0.5, rgb(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+}
+.logo{
+    width: 1rem;
+    text-transform: uppercase;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20rem;
+    text-transform: uppercase;
+    
+}
+.nav-list li{
+    margin: 20px;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.aboutus{
+    color: #111010;
+    padding-top: 3rem;
+    padding-left: 45rem;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contentt{
+    display: flex;
+    margin: 1rem;
+    padding-left: 8rem;
+    width: 80%;
+
+}
+.contentt .content{
+    margin-right: 4rem;
+}
+.content .p1{
+    color: #72bc45;
+    font-size: 22px;
+}
+.pagination {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pagination a {
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #3c6728;
+    margin: 0 3px;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: red;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+    background-color: #F9F9F0;
+}
+.footer h2 {
+    color: #000;
+    font-family: "Gotham-Thin";
+    font-weight: bold;
+    text-transform: uppercase;
+}
