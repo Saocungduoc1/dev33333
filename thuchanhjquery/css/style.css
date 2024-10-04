@@ -1,0 +1,17 @@
+.col1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar{
+    margin-left: 1.5rem;
+}
+.navbar .container-fluid {
+    margin-right: 45rem;
+}
+.col2 .row{
+    margin-left: 2rem;
+}
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+}
